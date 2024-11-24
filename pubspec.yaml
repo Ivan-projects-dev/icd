@@ -1,0 +1,18 @@
+name: icd_app
+description: A new Flutter project for ICD display.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+flutter:
+  assets:
+    - assets/icd_ru.json
+    - assets/icd_en.json
+    - assets/icd_lv.json
