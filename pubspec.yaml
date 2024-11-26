@@ -18,3 +18,11 @@ flutter:
     - assets/icd_ru.json
     - assets/icd_en.json
     - assets/icd_lv.json
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"

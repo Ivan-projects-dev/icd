@@ -79,9 +79,9 @@ class _ICDScreenState extends State<ICDScreen> {
 
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(65.0), // Устанавливаем высоту AppBar
+        preferredSize: Size.fromHeight(65.0),
         child: AppBar(
-          backgroundColor: Colors.blue, // Синий цвет панели
+          backgroundColor: Colors.red,
           centerTitle: true,
           title: Row(
             children: [
